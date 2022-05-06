@@ -10,14 +10,14 @@ The second assignment is a full-fledged project with expectations equivalent to 
 
 ### 1. Setting up the research goals.
 
-The first step is to identify the research goals of the project. The most basic requirement of the assignment is to predict the energy usage which is   a regression problem.
+The first step is to identify the research goals of the project. The most basic requirement of the assignment is to predict the energy usage which is   a **regression** problem.
 
 ### 2. Retrieving the data
-This involves importing the dataset correctly in the jupyter notebook that we will be using. As per the requirements of the assignment, this data is enough and another data set need not be consulted. However, it is essential to read the description of the dataset and gather some knowledge of the domain of the dataset i.e. capturing some insights of electricity units(in our case). Citation of the resources is important.
+This involves importing the dataset correctly in the jupyter notebook that we will be using. As per the requirements of the assignment, this data is enough and another data set need not be consulted. However, it is essential to read the description of the dataset and gather some **knowledge of the domain** of the dataset i.e. capturing some insights of electricity units(in our case). Citation of the resources is important.
 
 ### 3. Data Preparation
 
-The first step will be extracting the basic information about the dataset such as the number of columns, name of columns, and the type of data contained in the columns, to create a basic sketch or summary of the data. An integer column, for example, maybe be summarised as a column having data supposed between the ranges 10-100 and the mean to be 69.69. Each column (or at least most of them)must be summarised in the same manner.
+The first step will be **extracting the basic information** about the dataset such as the number of columns, name of columns, and the type of data contained in the columns, to create a basic sketch or summary of the data. An integer column, for example, maybe be summarised as a column having data supposed between the ranges 10-100 and the mean to be **69.69**. Each column (or at least most of them)must be summarised in the same manner.
 
 The second step would be to look for values such as-
 * Noise/Abrupt Values
@@ -25,7 +25,7 @@ The second step would be to look for values such as-
 * Missing Values
 * Negative Values (could be covered in noise)
 
-and then pre-processing the data to remove those undesired values. Then, we will go for feature-scaling.
+and then pre-processing the data to remove those undesired values. Then, we will go for **feature-scaling**.
 
 ```diff
 ! Note- Both the scaled and unscaled data will be used for training. Also, the type of scaling such as standardization/normalization, etc. will be identified and must be justified.
@@ -39,7 +39,7 @@ This part requires some extra focus this time as seen in the previous assignment
 Every column must be plotted against the target column. As we have a regression problem this time, we would be able to use a wider variety of graphs and may be able to get better relationships amongst the variables. I propose to use at least two types of graphs and use both the types individually between all the independent variables and the target column. In simple words, we can have one set of bar graphs and another set of line graphs.
        
 2. We need to create graphs between each column.
-3. A heatmap to depict the correlation between all columns with one another and the target variable. If possible we can also use another type of graph for the same purpose.
+3. A **heatmap** to depict the correlation between all columns with one another and the target variable. If possible we can also use another type of graph for the same purpose.
 
 ```diff
 ! Note – We need to explain the relationships that we find out between columns during this process as comments. This is a very important step that must not be left out. We will establish one successful plotting and then talk about that before moving on to the next one.
@@ -48,9 +48,9 @@ Every column must be plotted against the target column. As we have a regression 
 ### 5. Data Modelling
 The original aim of the project will be implemented here. We need to train and test the dataset on various machine learning algorithms and also tune the hyper-parameters to alter the baseline models.
 
-1. Firstly, we will segregate the dataset into training and validation datasets. Both, the scaled and unscaled data need to be used for this purpose.
-2. Baseline models will be fitted and tested for both training and testing datasets to determine possible chances of under/overfitting as well as data leakage.
-3. Hyper-parameters will be tuned using the GridSearch methods for ease.
+1. Firstly, we will segregate the dataset into **training** and **validation** datasets. Both, the **scaled** and **unscaled** data need to be used for this purpose.
+2. Baseline models will be fitted and tested for both training and testing datasets to determine possible chances of **under/overfitting** as well as **data leakage**.
+3. Hyper-parameters will be tuned using **GridSearch** for ease.
 4. We will use almost all metrics to determine the best models.
 
 #### The algorithms to be used are:-
@@ -70,7 +70,7 @@ The data-splitting techniques:-
 ```
 
 ### 6. Performance Visualisation
-We will take the ultimate model and create a separate section where we discuss and plot the performance of the model selected as the best one. At last, we will discuss the challenges faced, limitations, and the future scope of the assignment before entitling our names at the end of the assignment.
+We will take the **ultimate model** and create a separate section where we discuss and plot the performance of the model selected as the best one. At last, we will discuss the challenges faced, limitations, and the future scope of the assignment before entitling our names at the end of the assignment.
 
 ### Information to be cited
 
