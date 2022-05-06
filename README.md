@@ -1,7 +1,7 @@
 # RoadMap
 
 
-The second assignment is a full-fledged project with expectations equivalent to professional levels. Thus, we will take a step-by-step approach to make sure that we establish everything carefully and in a very elaborate manner.
+The second assignment is a full-fledged project with expectations equivalent to professional levels. Thus, we will take a step-by-step approach to make sure that we establish everything carefully and in a very elaborate manner. The trello project board can be found at https://trello.com/b/EpMvx3jO/kanban-dev-board .
 
 
 ```diff
