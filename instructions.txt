@@ -1,0 +1,31 @@
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
++ Using jupyter-notebooks, 'machine_learning.ipynb' has to be run. +
+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+Libraries
+---------
+
+Some of the libraries that the program is depended on:-
+
+1. statsmodels
+
+conda install -c conda-forge statsmodels
+or
+pip3 install statsmodels
+
+2. Seaborn
+pip3 install seaborn
+
+
+Other libraries
+---------------
+Some other libraries that are mentioned below are assumed to be present by default.
+
+1. pandas
+2. numpy
+3. copy
+4. matplotlib
+5. sklearn
+
+
+Some of the graphs take several minutes to display due to them being computationally a little heavier in order to produce a good quality graph. GridSearchCV also applies a wide range of values to find the ones with which the model works the best as part of parameter tuning. Please be patient! 
